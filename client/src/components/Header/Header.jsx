@@ -39,7 +39,7 @@ const Header = ({ pageTitle }) => {
               Gallery
             </Link>
             <Link to="/projects" className="nav-link mr-5">
-              Porjects
+              Projects
             </Link>
             <Link to="/contact" className="nav-link mr-5">
               Contact
