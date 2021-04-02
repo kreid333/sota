@@ -1,13 +1,136 @@
+p {
+  font-size: 20px;
+}
+
 .background {
-    height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .background img {
-    width: 100%;
+  width: 100%;
 }
 
 .image {
-    height: calc(100vh - 70px);
-    object-fit: cover;
+  height: calc(100vh - 70px);
+  object-fit: cover;
 }
 
+#consultations h1 {
+  margin: 0;
+}
+
+#consultations {
+  background-color: rgba(20, 125, 255, 0.75);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.button {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.375);
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.button:hover {
+  animation-name: btn;
+  animation-duration: 0.15s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service-img {
+  padding: 0 !important;
+  color: white;
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-img a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.service-img a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.service-img a:hover span {
+  text-decoration: underline;
+}
+
+.chiro {
+  background-image: url("../../images/IMG_5128.jpg");
+}
+
+.lifestyle {
+  background-image: url("../../images/IMG_5129.jpg");
+}
+
+.corrective {
+  background-image: url("../../images/IMG_5127.jpg");
+}
+
+.spinal {
+  background-image: url("../../images/IMG_5145.jpg");
+}
+
+.reviews {
+  height: 500px;
+  /* background-color: black; */
+  background-image: url("../../images/IMG_5142.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reviews div {
+  height: 100%;
+  /* width: 100%; */
+  background-color: rgba(0, 0, 0, 0.425);
+  color: white;
+}
+
+.quote {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  font-size: 600px;
+  font-family: Georgia, serif;
+  color: rgba(255, 255, 255, 0.150);
+  z-index: 1;
+  line-height: 1;
+}
+
+@keyframes btn {
+  100% {
+    transform: scale(0.85);
+  }
+}
