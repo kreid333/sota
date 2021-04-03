@@ -7,7 +7,7 @@ import IMG4 from "../images/IMG_5118.jpg"
 
 const about = () => {
   return (
-    <Layout title="About Us">
+    <Layout title="About">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 text-center">

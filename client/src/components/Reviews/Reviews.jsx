@@ -6,9 +6,9 @@ const Reviews = () => {
     <>
       <div className="row">
         <div className="col-sm-12 text-center">
-          <h1 className="m-3" style={{ padding: "10px" }}>
+          <i><h1 className="m-3" style={{ padding: "10px", border: "1px solid black" }}>
             What People Are Saying
-          </h1>
+          </h1></i>
         </div>
       </div>
       <div className="row">
