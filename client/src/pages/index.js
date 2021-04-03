@@ -4,7 +4,6 @@ import { Carousel } from "react-bootstrap"
 import IMG1 from "../images/IMG_5117.jpg"
 import IMG2 from "../images/IMG_5119.jpg"
 import IMG3 from "../images/IMG_5120.jpg"
-import IMG4 from "../images/IMG_5118.jpg"
 import IMG5 from "../images/IMG_5130.jpg"
 import IMG6 from "../images/IMG_5131.jpg"
 import IMG7 from "../images/IMG_5136.jpg"
@@ -14,10 +13,12 @@ import "./styles/index.css"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons"
+import ContactUs from "../components/ContactUs/ContactUs"
+import Reviews from "../components/Reviews/Reviews"
 
 export default function Home() {
   return (
-    <Layout title="Home">
+    <Layout title="SOTA Window Coverings - Window Coverings in Delray Beach Florida">
       <div className="row hero m-0">
         <div className="col-lg-3 p-0">
           <div className="background">
@@ -172,46 +173,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm-12 text-center">
-            <h1 className="m-3" style={{ padding: "10px" }}>
-              What People Are Saying
-            </h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-12 p-0 text-center reviews mb-5">
-            <div className="d-flex">
-              <span className="quote">“</span>
-              <p
-                className="justify-content-center align-self-center pl-4 pr-4"
-                style={{ zIndex: 2 }}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                quis, asperiores recusandae provident vitae eos, accusamus omnis
-                sequi harum suscipit cumque libero itaque beatae unde iusto
-                dicta labore dolores voluptatem eius? Harum vel corporis,
-                nostrum adipisci mollitia quam recusandae? Fugit consectetur
-                voluptas aspernatur rem similique accusamus quam asperiores
-                veniam nisi!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-12 mb-5 text-center">
-            <h1>Contact Us</h1>
-            <p>
-              If you are looking for a window covering company in the Delray Beach and surrounding areas that specializes
-              in Plantation Shutters in Wood and Poly, Solar Shades, Horizontal
-              Shades and Vertical Shades, then please call{" "}
-              <a href="tel:5617054900" style={{ color: "black" }}>
-                (561) 705-4900
-              </a>{" "}
-              or complete our online consultation form.
-            </p>
-          </div>
-        </div>
+        <Reviews />
+        <ContactUs />
       </div>
     </Layout>
   )

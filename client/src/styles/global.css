@@ -1,9 +1,24 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    padding-top: 70px;
-    min-width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 70px;
+  min-width: 100%;
 }
-  
+
 .wrapper {
-    min-height: 100vh;
+  min-height: 100vh;
+}
+
+.header {
+  background-image: url("../images/Delray_Beach_FL_at_Night.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 75px;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 100%;
 }

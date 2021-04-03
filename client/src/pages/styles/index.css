@@ -102,33 +102,6 @@ p {
   background-image: url("../../images/IMG_5145.jpg");
 }
 
-.reviews {
-  height: 500px;
-  /* background-color: black; */
-  background-image: url("../../images/IMG_5142.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.reviews div {
-  height: 100%;
-  /* width: 100%; */
-  background-color: rgba(0, 0, 0, 0.425);
-  color: white;
-}
-
-.quote {
-  position: absolute;
-  left: 0;
-  top: 90px;
-  font-size: 600px;
-  font-family: Georgia, serif;
-  color: rgba(255, 255, 255, 0.150);
-  z-index: 1;
-  line-height: 1;
-}
-
 @keyframes btn {
   100% {
     transform: scale(0.85);
