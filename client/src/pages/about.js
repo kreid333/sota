@@ -20,13 +20,11 @@ const about = () => {
           <div className="row">
             <div className="col-xl-8 my-auto about-text">
               <p className="p-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Suscipit laborum, sapiente laboriosam eligendi voluptates enim
-                id molestiae molestias placeat voluptatum perspiciatis
-                architecto ipsam eum quos, dignissimos vero esse modi atque
-                porro vel consequatur nam fugit nihil. Accusamus cum cumque ipsa
-                aut quae non dolores, beatae, consequuntur maxime nisi soluta
-                quasi!
+                A small family owned business providing professional Window
+                Treatments to homes and businesses in the Delray Beach and
+                surrounding areas for the past 9 years. We specialize in
+                Plantation Shutters in Wood and Poly, Solar Shades, Horizontal
+                Shades and Verticals.
               </p>
             </div>
             <div className="col-xl-4 text-center about-img">
@@ -39,13 +37,13 @@ const about = () => {
             </div>
             <div className="col-xl-8 my-auto">
               <p className="p-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Suscipit laborum, sapiente laboriosam eligendi voluptates enim
-                id molestiae molestias placeat voluptatum perspiciatis
-                architecto ipsam eum quos, dignissimos vero esse modi atque
-                porro vel consequatur nam fugit nihil. Accusamus cum cumque ipsa
-                aut quae non dolores, beatae, consequuntur maxime nisi soluta
-                quasi!
+                Areas we currently serve include: Atlantis, Boca Del Mar, Boca
+                Pointe, Boca Raton, Boynton Beach, Briny Breezes, Deerfield
+                Beach, Delray Beach, Dunes Road, Golf, Gulf Stream, Hamptons at
+                Boca Raton, Highland Beach, Hillsboro Pines, Hypoluxo, Kings
+                Point, Lake Worth, Lantana, Manalapan, Mission Bay, Ocean Ridge,
+                Seminole Manor, South Palm Beach, Villages of Oriole, Whisper
+                Walk, Fort Lauderdale, and Miami
               </p>
             </div>
           </div>
