@@ -18,7 +18,7 @@ const about = () => {
         </div>
         <div>
           <div className="row">
-            <div className="col-xl-8 my-auto about-text">
+            <div className="col-xl-8 my-auto about-text" style={{borderBottom: "1px solid lightgrey"}}>
               <p className="p-3">
                 A small family owned business providing professional Window
                 Treatments to homes and businesses in the Delray Beach and
@@ -28,14 +28,14 @@ const about = () => {
               </p>
             </div>
             <div className="col-xl-4 text-center about-img">
-              <img className="imgBubble" src={IMG4} alt="" />
+              <img className="imgBubble p-3" src={IMG4} alt="" />
             </div>
           </div>
           <div className="row">
             <div className="col-xl-4 text-center">
-              <img className="imgBubble" src={IMG4} alt="" />
+              <img className="imgBubble p-3" src={IMG4} alt="" />
             </div>
-            <div className="col-xl-8 my-auto">
+            <div className="col-xl-8 my-auto" style={{borderBottom: "1px solid lightgrey"}}>
               <p className="p-3">
                 Areas we currently serve include: Atlantis, Boca Del Mar, Boca
                 Pointe, Boca Raton, Boynton Beach, Briny Breezes, Deerfield
