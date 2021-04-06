@@ -7,3 +7,24 @@ body {
 .wrapper {
   min-height: 100vh;
 }
+
+.button {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.375);
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.button:hover {
+  animation-name: btn;
+  animation-duration: 0.15s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes btn {
+  100% {
+    transform: scale(0.85);
+  }
+}

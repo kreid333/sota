@@ -6,13 +6,13 @@ const Reviews = () => {
     <>
       <div className="row">
         <div className="col-sm-12 text-center">
-          <h1 className="m-4" style={{ padding: "10px"}}>
+          <h2 className="p-4 m-0">
             What People Are Saying
-          </h1>
+          </h2>
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-12 p-0 text-center reviews mb-5">
+        <div className="col-sm-12 p-0 text-center reviews">
           <div className="d-flex">
             <span className="quote">“</span>
             <p

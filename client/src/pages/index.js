@@ -130,22 +130,22 @@ export default function Home() {
         {/* SERVICES */}
         <div className="row">
           <div className="col-sm-12 text-center">
-            <h1 className="m-3" style={{ padding: "10px" }}>
+            <h2 className="m-3" style={{ padding: "10px" }}>
               Services
-            </h1>
+            </h2>
             <div className="services">
               <div className="row">
-                <div className="col-sm-6 service-img chiro">
+                <div className="col-sm-6 service-img plantationShutters">
                   <Link to="/services">
-                    <h2>Plantation Shutters</h2>
+                    <h3>Plantation Shutters</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
                     </span>
                   </Link>
                 </div>
-                <div className="col-sm-6 service-img corrective">
+                <div className="col-sm-6 service-img solarShades">
                   <Link to="/services">
-                    <h2>Solar Shades</h2>
+                    <h3>Solar Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
                     </span>
@@ -153,17 +153,17 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-6 service-img lifestyle">
+                <div className="col-sm-6 service-img horizontalShades">
                   <Link to="/services">
-                    <h2>Horizontal Shades</h2>
+                    <h3>Horizontal Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
                     </span>
                   </Link>
                 </div>
-                <div className="col-sm-6 service-img spinal">
+                <div className="col-sm-6 service-img verticalShades">
                   <Link to="/services">
-                    <h2>Vertical Shades</h2>
+                    <h3>Vertical Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
                     </span>
