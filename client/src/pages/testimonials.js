@@ -23,7 +23,7 @@ const testimonials = () => {
             <img
               src={SOTA}
               alt="Liberty County Clinic of Chiropractic"
-              width="75%"
+              width="65%"
             ></img>
           </div>
           <div className="col-sm-6 text-center my-auto pt-4 pb-4">
