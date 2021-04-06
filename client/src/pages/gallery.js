@@ -23,7 +23,7 @@ const gallery = () => {
               <Link to="/services">
                 <h3>Plantation Shutters</h3>
                 <span>
-                  Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
+                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
                 </span>
               </Link>
             </div>
@@ -33,7 +33,7 @@ const gallery = () => {
               <Link to="/services">
                 <h3>Solar Shades</h3>
                 <span>
-                  Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
+                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
                 </span>
               </Link>
             </div>
@@ -43,7 +43,7 @@ const gallery = () => {
               <Link to="/services">
                 <h3>Horizontal Shades</h3>
                 <span>
-                  Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
+                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
                 </span>
               </Link>
             </div>
@@ -53,7 +53,7 @@ const gallery = () => {
               <Link to="/services">
                 <h3>Vertical Shades</h3>
                 <span>
-                  Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
+                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
                 </span>
               </Link>
             </div>
