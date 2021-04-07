@@ -2,9 +2,9 @@ import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
-import ContactUs from "../components/ContactUs/ContactUs"
-import Layout from "../components/Layout"
-import Reviews from "../components/Reviews/Reviews"
+import ContactUs from "../../components/ContactUs/ContactUs"
+import Layout from "../../components/Layout"
+import Reviews from "../../components/Reviews/Reviews"
 
 const gallery = () => {
   return (
