@@ -20,7 +20,7 @@ const gallery = () => {
         <div className="services">
           <div className="row">
             <div className="col-sm-12 service-img plantationShutters mb-3">
-              <Link to="/services">
+              <Link to="/gallery/plantationshutters">
                 <h3>Plantation Shutters</h3>
                 <span>
                   View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -30,7 +30,7 @@ const gallery = () => {
           </div>
           <div className="row">
             <div className="col-sm-12 service-img solarShades mb-3">
-              <Link to="/services">
+              <Link to="/gallery/solarshades">
                 <h3>Solar Shades</h3>
                 <span>
                   View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -40,7 +40,7 @@ const gallery = () => {
           </div>
           <div className="row">
             <div className="col-sm-12 service-img horizontalShades mb-3">
-              <Link to="/services">
+              <Link to="/gallery/horizontalshades">
                 <h3>Horizontal Shades</h3>
                 <span>
                   View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -50,7 +50,7 @@ const gallery = () => {
           </div>
           <div className="row">
             <div className="col-sm-12 service-img verticalShades">
-              <Link to="/services">
+              <Link to="/gallery/verticalshades">
                 <h3>Vertical Shades</h3>
                 <span>
                   View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
