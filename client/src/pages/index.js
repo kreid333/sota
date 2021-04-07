@@ -78,30 +78,12 @@ export default function Home() {
             </h1>
             <h3 className="m-3">Located in Delray Beach, Florida</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              nulla quos explicabo facere consectetur optio incidunt, dicta hic
-              quae unde nam aspernatur deleniti. Fugiat quod fugit voluptatibus
-              laboriosam impedit esse soluta quasi nostrum, a nam dolores quidem
-              rem placeat nemo explicabo at, tempora libero delectus repellat
-              voluptates aliquam, quos voluptatem. Quisquam distinctio autem
-              iusto nostrum eveniet ullam pariatur. Dicta officiis eius eveniet
-              placeat enim expedita ex laborum. Et nihil, a iste, voluptatum sed
-              hic voluptatibus facilis officia magnam veniam dolore. Possimus
-              illum quam perspiciatis! Deserunt vel dolore esse assumenda,
-              asperiores explicabo voluptatibus nisi eum, iste necessitatibus
-              ratione eaque pariatur sit odio soluta sapiente sed accusamus
-              autem velit voluptate nemo. Repudiandae harum doloremque eligendi,
-              ducimus minima, odit tempore reiciendis amet voluptas voluptatibus
-              qui soluta, rerum ipsam commodi necessitatibus? Tempora culpa
-              pariatur rem consequatur, maiores, fugit recusandae dolores minus,
-              eveniet perspiciatis enim facilis corporis porro quo esse vel
-              fugiat natus modi delectus error quos. Minima, a beatae.
-              Cupiditate consectetur ipsa provident obcaecati delectus soluta
-              fugit sit inventore iure reprehenderit voluptatum enim nulla, quos
-              sunt repudiandae deserunt, molestias temporibus, dolores odit!
-              Cumque aut tempore aliquam culpa recusandae delectus, praesentium
-              modi consequatur molestiae expedita enim sequi, qui quae iste
-              architecto impedit hic laboriosam in.
+              When local home and business owners need window treaments, they
+              contact SOTA Window Coverings to get the job done. That's because
+              for over 10 years, we have been providing quality service to both
+              residential and commercial clients in the Delray Beach area. Here
+              at SOTA Windown Coverings, we go the extra mile to ensure that all
+              of our clients receive the attention they need.
             </p>
             <button
               className="m-3 button shadow"
