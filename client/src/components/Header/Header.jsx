@@ -38,9 +38,6 @@ const Header = ({ pageTitle }) => {
             <Link to="/gallery" className="nav-link mr-5">
               Gallery
             </Link>
-            <Link to="/projects" className="nav-link mr-5">
-              Projects
-            </Link>
             <Link to="/contact" className="nav-link mr-5">
               Contact
             </Link>
