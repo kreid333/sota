@@ -6,6 +6,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons"
 import "./styles/testimonials.css"
 import ReviewCard from "../components/ReviewCard/ReviewCard"
 import ContactUs from "../components/ContactUs/ContactUs"
+import userReviews from "../data/reviews.json"
 
 const testimonials = () => {
   return (
@@ -20,11 +21,7 @@ const testimonials = () => {
         </div>
         <div className="row">
           <div className="col-sm-6 text-center">
-            <img
-              src={SOTA}
-              alt="Liberty County Clinic of Chiropractic"
-              width="65%"
-            ></img>
+            <img src={SOTA} alt="SOTA Window Coverings" width="65%"></img>
           </div>
           <div className="col-sm-6 text-center my-auto pt-4 pb-4">
             {[...Array(5)].map(() => (
@@ -41,29 +38,14 @@ const testimonials = () => {
             <button className="button reviewBtn">Submit a review</button>
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
-          <div className="col-sm-6 mb-4">
-            <ReviewCard />
-          </div>
+        <div> 
+          {userReviews.map(review => (
+            <ReviewCard
+              name={review.name}
+              text={review.review}
+              rating={review.rating}
+            />
+          ))}
         </div>
         <ContactUs />
       </div>
