@@ -1,0 +1,12 @@
+.submitBtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    transition: background-color 0.25s ease;
+}
+
+.submitBtn:hover {
+    background-color: black;
+    color: white;
+}
