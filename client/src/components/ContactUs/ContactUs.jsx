@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 
 const ContactUs = () => {
@@ -15,10 +16,10 @@ const ContactUs = () => {
             and surrounding areas that specializes in Plantation Shutters in
             Wood and Poly, Solar Shades, Horizontal Shades and Vertical Shades,
             then please call{" "}
-            <a href="tel:5617054900" style={{ color: "black" }}>
+            <a href="tel:5617054900" style={{ color: "black", textDecoration: "underline" }}>
               (561) 705-4900
             </a>{" "}
-            or complete our online consultation form.
+            or <Link to="/contact" style={{ color: "black", textDecoration: "underline" }}>complete our online consultation form</Link>.
           </p>
         </div>
       </div>

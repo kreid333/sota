@@ -3,7 +3,9 @@ import Layout from "../components/Layout"
 import "./styles/about.css"
 import ContactUs from "../components/ContactUs/ContactUs"
 import Reviews from "../components/Reviews/Reviews"
-import IMG4 from "../images/IMG_5118.jpg"
+import IMG from "../images/IMG_5161.jpg"
+import IMG1 from "../images/IMG_5162.jpg"
+
 
 const about = () => {
   return (
@@ -22,18 +24,18 @@ const about = () => {
               <p className="p-3">
                 A small family owned business providing professional Window
                 Treatments to homes and businesses in the Delray Beach and
-                surrounding areas for the past 9 years. We specialize in
+                surrounding areas for over 15 years. We are licensed and insured and specialize in
                 Plantation Shutters in Wood and Poly, Solar Shades, Horizontal
                 Shades and Verticals.
               </p>
             </div>
             <div className="col-lg-4 text-center about-img">
-              <img className="imgBubble p-3" src={IMG4} alt="" />
+              <img className="imgBubble p-3" src={IMG1} alt="" />
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 text-center">
-              <img className="imgBubble p-3" src={IMG4} alt="" />
+              <img className="imgBubble p-3" src={IMG} alt="" />
             </div>
             <div className="col-lg-8 my-auto" style={{borderBottom: "1px solid lightgrey"}}>
               <p className="p-3">
@@ -43,7 +45,7 @@ const about = () => {
                 Boca Raton, Highland Beach, Hillsboro Pines, Hypoluxo, Kings
                 Point, Lake Worth, Lantana, Manalapan, Mission Bay, Ocean Ridge,
                 Seminole Manor, South Palm Beach, Villages of Oriole, Whisper
-                Walk, Fort Lauderdale, and Miami
+                Walk, Fort Lauderdale, and Miami.
               </p>
             </div>
           </div>

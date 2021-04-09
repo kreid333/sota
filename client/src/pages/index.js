@@ -64,7 +64,9 @@ export default function Home() {
           <h1 className="d-flex justify-content-center">
             FREE IN HOME CONSULTATIONS!
           </h1>
-          <button className="mt-3 button shadow">Contact Us</button>
+          <Link to="/contact">
+            <button className="mt-3 button shadow">Contact Us</button>
+          </Link>
         </div>
       </div>
       <div className="container">
@@ -80,17 +82,19 @@ export default function Home() {
             <p>
               When local home and business owners need window treaments, they
               contact SOTA Window Coverings to get the job done. That's because
-              for over 10 years, we have been providing quality service to both
+              for over 15 years, we have been providing quality service to both
               residential and commercial clients in the Delray Beach area. Here
               at SOTA Windown Coverings, we go the extra mile to ensure that all
               of our clients receive the attention they need.
             </p>
-            <button
-              className="m-3 button shadow"
-              style={{ backgroundColor: "black" }}
-            >
-              See Gallery
-            </button>
+            <Link to="/gallery">
+              <button
+                className="m-3 button shadow"
+                style={{ backgroundColor: "black" }}
+              >
+                See Gallery
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -118,7 +122,7 @@ export default function Home() {
             <div className="services">
               <div className="row">
                 <div className="col-sm-6 service-img plantationShutters">
-                  <Link to="/services">
+                  <Link to="/gallery/plantationshutters">
                     <h3>Plantation Shutters</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -126,7 +130,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="col-sm-6 service-img solarShades">
-                  <Link to="/services">
+                  <Link to="/gallery/solarshades">
                     <h3>Solar Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -136,7 +140,7 @@ export default function Home() {
               </div>
               <div className="row">
                 <div className="col-sm-6 service-img horizontalShades">
-                  <Link to="/services">
+                  <Link to="/gallery/horizontalshades">
                     <h3>Horizontal Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
@@ -144,7 +148,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="col-sm-6 service-img verticalShades">
-                  <Link to="/services">
+                  <Link to="/gallery/verticalshades">
                     <h3>Vertical Shades</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
