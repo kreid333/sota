@@ -19,6 +19,16 @@ const gallery = () => {
         </div>
         <div className="services">
           <div className="row">
+            <div className="col-sm-12 service-img viewAll mb-3">
+              <Link to="/gallery/all">
+                <h3>View All</h3>
+                <span>
+                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
+                </span>
+              </Link>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-sm-12 service-img plantationShutters mb-3">
               <Link to="/gallery/plantationshutters">
                 <h3>Plantation Shutters</h3>
