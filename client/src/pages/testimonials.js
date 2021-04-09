@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import SOTA from "../images/SOTA.png"
+import SOTA from "../images/logo/SOTA.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
 import "./styles/testimonials.css"

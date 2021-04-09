@@ -3,8 +3,8 @@ import Layout from "../components/Layout"
 import "./styles/about.css"
 import ContactUs from "../components/ContactUs/ContactUs"
 import Reviews from "../components/Reviews/Reviews"
-import IMG from "../images/IMG_5161.jpg"
-import IMG1 from "../images/IMG_5162.jpg"
+import IMG from "../images/about/IMG_5161.jpg"
+import IMG1 from "../images/about/IMG_5162.jpg"
 
 
 const about = () => {
