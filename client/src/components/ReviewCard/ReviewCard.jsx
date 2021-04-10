@@ -12,9 +12,7 @@ const ReviewCard = ({ rating, text, name }) => {
             <FontAwesomeIcon icon={faStar} size="2x" color="gold" />
           ))}
         </div>
-        <p className="m-2 text-center">
-          <i>{text}</i>
-        </p>
+        <q className="m-2 text-center"><i>{text}</i></q>
         <div className="text-right">
           <span>- {name}</span>
         </div>

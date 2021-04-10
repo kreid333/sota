@@ -14,7 +14,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3001;
 
 // CONNECTING TO MONGODB DATABASE
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/lccc", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/sota", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

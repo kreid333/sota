@@ -1,16 +1,145 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Layout from "../components/Layout"
 import SOTA from "../images/logo/SOTA.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
+import { Modal } from "react-bootstrap"
+import { Button } from "react-bootstrap"
+import StarRating from "../components/StarRating/StarRating"
 import "./styles/testimonials.css"
 import ReviewCard from "../components/ReviewCard/ReviewCard"
 import ContactUs from "../components/ContactUs/ContactUs"
 import userReviews from "../data/reviews.json"
+import axios from "axios"
 
-const testimonials = () => {
+const Testimonials = () => {
+  const [savedReviews, setSavedReviews] = useState([])
+  const [show, setShow] = useState(false)
+  const [name, setName] = useState(null)
+  const [email, setEmail] = useState(null)
+  const [rating, setRating] = useState(null)
+  const [review, setReview] = useState(null)
+
+  useEffect(() => {
+    axios
+      .get("/api/getReviews")
+      .then(response => {
+        setSavedReviews(response.data)
+      })
+      .catch(err => {
+        if (err) {
+          throw err
+        }
+      })
+  }, [])
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  const data = {
+    name,
+    email,
+    rating,
+    review,
+  }
+
+  const handleSubmit = () => {
+    if (name !== null && email !== null && rating !== null && review !== null) {
+      axios
+        .post("/api/sendReview", data)
+        .then(response => {
+          console.log(response)
+          setName(null)
+          setEmail(null)
+          setRating(null)
+          setReview(null)
+          handleClose()
+          window.location.reload()
+        })
+        .catch(err => {
+          if (err) {
+            throw err
+          }
+        })
+    } else {
+      alert("You are missing information! Please try again.")
+    }
+  }
   return (
     <Layout title="Testimonials">
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Submit your review</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="container">
+            <form>
+              <div className="row">
+                <div className="col-sm-12 mb-3">
+                  <label className="d-block" htmlFor="name">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={name}
+                    onChange={e => {
+                      setName(e.target.value)
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-sm-12 mb-3">
+                  <label className="d-block" htmlFor="email">
+                    Email
+                  </label>
+                  <input
+                    type="text"
+                    name="email"
+                    value={email}
+                    onChange={e => {
+                      setEmail(e.target.value)
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-sm-12 mb-3">
+                  <label className="d-block" htmlFor="rating">
+                    Rating
+                  </label>
+                  <StarRating settingRating={setRating} rating={rating} />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-sm-12 mb-3">
+                  <label className="d-block" htmlFor="review">
+                    Review
+                  </label>
+                  <textarea
+                    name="review"
+                    cols="30"
+                    rows="5"
+                    value={review}
+                    onChange={e => {
+                      setReview(e.target.value)
+                    }}
+                  ></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
       <div className="container">
         <div className="row">
           <div className="col-sm-12 text-center">
@@ -35,10 +164,10 @@ const testimonials = () => {
         <br />
         <div className="row mb-5">
           <div className="col-sm-12 text-center">
-            <button className="button reviewBtn">Submit a review</button>
+            <button type="submit" className="button reviewBtn" onClick={handleShow}>Submit a review</button>
           </div>
         </div>
-        <div> 
+        <div>
           {userReviews.map(review => (
             <ReviewCard
               name={review.name}
@@ -46,6 +175,14 @@ const testimonials = () => {
               rating={review.rating}
             />
           ))}
+          {savedReviews.length > 0 &&
+            savedReviews.map(review => (
+              <ReviewCard
+                rating={review.rating}
+                text={review.review}
+                name={review.name}
+              />
+            ))}
         </div>
         <ContactUs />
       </div>
@@ -53,4 +190,4 @@ const testimonials = () => {
   )
 }
 
-export default testimonials
+export default Testimonials
