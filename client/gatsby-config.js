@@ -4,7 +4,11 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-module.exports = {
-  /* Your site config here */
-  plugins: [],
+ module.exports = {
+  proxy: {
+    prefix: "/api",
+    url: "http://localhost:3001",
+  },
+
+  plugins: ["gatsby-plugin-react-helmet"],
 }
