@@ -3,7 +3,6 @@ import React, { useState } from "react"
 import Layout from "../components/Layout"
 import Reviews from "../components/Reviews/Reviews"
 import axios from "axios"
-import "./styles/contact.css"
 
 const Contact = () => {
   const [name, setName] = useState("")
@@ -114,7 +113,7 @@ const Contact = () => {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                    <button type="submit" className="submitBtn">
+                    <button type="submit" className="globalBtn">
                       Submit
                     </button>
                   </form>

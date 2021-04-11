@@ -76,9 +76,30 @@ body {
 }
 
 .verticalShades {
-  background-image: url("../images/gallery/IMG_5145.jpg");
+  background-image: url("../images/gallery/verticalshades/IMG_5145.jpg");
 }
 
 .viewAll {
   background-image: url("../images/gallery/IMG_5139.jpg");
+}
+
+.globalBtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  transition: background-color 0.25s ease;
+}
+
+.globalBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.imgDiv {
+  height: 400px;
+}
+
+.galleryImg {
+  object-fit: cover;
 }
