@@ -4,6 +4,7 @@ import "./Reviews.css"
 let num = 0
 
 const Reviews = () => {
+  // HANDLING NAVIGATION FOR CAROUSEL
   const handleNewQuote = e => {
     if (e.target.id === "next") {
       if (num === clientReviews.length - 1) {
