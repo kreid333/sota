@@ -8,6 +8,7 @@ const ReviewCard = ({ rating, text, name }) => {
     <div className="mb-4 w-100">
       <div className="reviewCard shadow">
         <div className="text-center p-2">
+          {/* MAPPING AMOUNT OF STARS THAT THE USER SPECIFIES FOR THE REVIEW */}
           {[...Array(rating)].map(() => (
             <FontAwesomeIcon icon={faStar} size="2x" color="gold" />
           ))}

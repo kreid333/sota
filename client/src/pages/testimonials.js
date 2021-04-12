@@ -168,6 +168,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div>
+          {/* MAPPING REVIEWS FROM JSON DATA  */}
           {userReviews.map(review => (
             <ReviewCard
               name={review.name}
@@ -175,6 +176,8 @@ const Testimonials = () => {
               rating={review.rating}
             />
           ))}
+
+          {/* MAPPING REVIEWS FROM DATABASE  */}
           {savedReviews.length > 0 &&
             savedReviews.map(review => (
               <ReviewCard

@@ -21,6 +21,7 @@ const Contact = () => {
       message,
     }
 
+    // IF NO FIELD IN THE CONTACT FORM IS EMPTY, SEND POST REQUEST TO SEND EMAIL 
     if (name !== "" && email !== "" && phoneNumber !== "" && message !== "") {
       const button = document.querySelector(".submitBtn")
       button.textContent = "Sending..."
