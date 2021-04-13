@@ -42,4 +42,4 @@ const apiRoutes = require("./controller/apiController");
 app.use(apiRoutes);
 
 // BUILD FOLDER STATIC
-app.use(express.static("libertyccc/public"));
+app.use(express.static("client/public"));
