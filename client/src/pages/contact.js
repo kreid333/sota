@@ -114,7 +114,7 @@ const Contact = () => {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                    <button type="submit" className="globalBtn">
+                    <button type="submit" className="globalBtn submitBtn">
                       Submit
                     </button>
                   </form>
