@@ -30,8 +30,8 @@ const Reviews = () => {
   const clientReviews = [
     {
       text:
-        "SOTA Window Coverings is an outstanding company.  Sandy and Stephen are a pleasure to work with and their professionalism and expertise can't be beat.  My plantation shutters arrived on time, the measurements were spot on and the shutters were installed with perfection.  I highly recommend SOTA Window Coverings.",
-      name: "Andrea Lawrence",
+        "I recently had Sota windows installed plantation shutters in my Home in Highland Beach. His job performance and professionalism was impeccable, I would certainly recommend him to my friends.",
+      name: "Devon Bowie",
     },
     {
       text:
@@ -40,7 +40,7 @@ const Reviews = () => {
     },
     {
       text:
-        "This was one of the most stress free experience of my life. Sota Window Coverings excelled from the measurements to installation. They arrived when they said they would and it all went very smoothly. I was amazed at the difference these newly installed plantation shutters made to my condo.",
+        "This was one of the most stress free experience of my life. Sota Window Coverings excelled from the measurements to installation...",
       name: "Monica Hunter",
     },
   ]
