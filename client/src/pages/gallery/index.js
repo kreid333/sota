@@ -58,16 +58,6 @@ const gallery = () => {
               </Link>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-12 service-img verticalShades">
-              <Link to="/gallery/verticalshades">
-                <h3>Vertical Shades</h3>
-                <span>
-                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
-                </span>
-              </Link>
-            </div>
-          </div>
         </div>
         <Reviews />
         <ContactUs />

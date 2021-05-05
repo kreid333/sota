@@ -17,7 +17,6 @@ const all = () => {
             </h1>
           </div>
         </div>
-        <VerticalShades />
         <HorizontalShades />
         <PlantationShutters />
         <SolarShades />
