@@ -2,8 +2,6 @@ import React from "react"
 import IMG from "../../images/gallery/plantationshutters/IMG_5166.jpg"
 import IMG1 from "../../images/gallery/plantationshutters/IMG_5167.jpg"
 import IMG2 from "../../images/gallery/plantationshutters/IMG_5168.jpg"
-import IMG3 from "../../images/gallery/plantationshutters/IMG_5169.jpg"
-import IMG4 from "../../images/gallery/plantationshutters/IMG_5170.jpg"
 import IMG5 from "../../images/gallery/plantationshutters/IMG_5171.jpg"
 import IMG6 from "../../images/gallery/plantationshutters/IMG_5172.jpg"
 import IMG7 from "../../images/gallery/plantationshutters/IMG_5173.jpg"
@@ -34,14 +32,6 @@ const PlantationShutters = () => {
       <div className="row">
         <div className="col-sm-6 mb-3 imgDiv">
           <img className="w-100 h-100 galleryImg" src={IMG2} alt="" />
-        </div>
-        <div className="col-sm-6 mb-3 imgDiv">
-          <img className="w-100 h-100 galleryImg" src={IMG3} alt="" />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm-6 mb-3 imgDiv">
-          <img className="w-100 h-100 galleryImg" src={IMG4} alt="" />
         </div>
         <div className="col-sm-6 mb-3 imgDiv">
           <img className="w-100 h-100 galleryImg" src={IMG5} alt="" />
