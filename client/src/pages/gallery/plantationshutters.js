@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import HorizontalShades from "../../components/HorizontalShades/HorizontalShades"
 import Layout from "../../components/Layout"
 import PlantationShutters from "../../components/PlantationShutters/PlantationShutters"
 
@@ -15,6 +16,7 @@ const plantationshutters = () => {
           </div>
         </div>
         <PlantationShutters />
+        <HorizontalShades/>
         <Link to="/gallery">
           <button type="submit" className="globalBtn m-5">
             Go back

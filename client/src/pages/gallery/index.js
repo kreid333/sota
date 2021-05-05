@@ -48,16 +48,6 @@ const gallery = () => {
               </Link>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-12 service-img horizontalShades mb-3">
-              <Link to="/gallery/horizontalshades">
-                <h3>Horizontal Shades</h3>
-                <span>
-                  View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
-                </span>
-              </Link>
-            </div>
-          </div>
         </div>
         <Reviews />
         <ContactUs />
