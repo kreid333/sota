@@ -41,7 +41,7 @@ router.post("/api/sendMail", (req, res) => {
 
       // send mail with defined transport object
       let info = await transporter.sendMail({
-        from: '"Sota Window Coverings" <stephenw@sotadecor.com>', // sender address
+        from: '"SOTA Window Coverings" <stephenw@sotadecor.com>', // sender address
         to: maillist, // list of receivers
         subject:
           "Thank you for contacting SOTA Window Coverings", // Subject line
