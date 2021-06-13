@@ -21,7 +21,7 @@ router.post("/api/sendMail", (req, res) => {
       </div>
     `;
 
-  const maillist = [req.body.email, "stephenw@sotadecor.com"]
+  const maillist = [req.body.email, "sales@sotadecor.com"]
 
   const sendMail = async () => {
     try {
@@ -31,7 +31,7 @@ router.post("/api/sendMail", (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: "stephenw@sotadecor.com", // generated ethereal user
+          user: "sales@sotadecor.com", // generated ethereal user
           pass: process.env.PASSWORD, // generated ethereal password
         },
         tls: {
