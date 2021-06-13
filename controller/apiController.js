@@ -21,12 +21,12 @@ router.post("/api/sendMail", (req, res) => {
       </div>
     `;
 
-  const maillist = [req.body.email, "sales@sotadecor.com"]
+  const maillist = [req.body.email, "sales@sotadecor.com"];
 
   const sendMail = async () => {
     try {
       // create reusable transporter object using the default SMTP transport
-      let transporter = nodemailer.createTransport({
+      var transporter = nodemailer.createTransport({
         host: "mail.sotadecor.com",
         port: 587,
         secure: false, // true for 465, false for other ports
@@ -40,11 +40,10 @@ router.post("/api/sendMail", (req, res) => {
       });
 
       // send mail with defined transport object
-      let info = await transporter.sendMail({
+      var info = await transporter.sendMail({
         from: '"SOTA Window Coverings" <stephenw@sotadecor.com>', // sender address
         to: maillist, // list of receivers
-        subject:
-          "Thank you for contacting SOTA Window Coverings", // Subject line
+        subject: "Thank you for contacting SOTA Window Coverings", // Subject line
         // text: "Hello world?", // plain text body
         html: output, // html body
       });
@@ -53,6 +52,7 @@ router.post("/api/sendMail", (req, res) => {
       console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
       res.end();
     } catch (err) {
+      console.log(transporter, info);
       console.log(err);
     }
   };
