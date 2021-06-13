@@ -27,7 +27,7 @@ router.post("/api/sendMail", (req, res) => {
     try {
       // create reusable transporter object using the default SMTP transport
       let transporter = nodemailer.createTransport({
-        host: "mail.sotadecor.com",
+        host: "smtp.sotadecor.com",
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
