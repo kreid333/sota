@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import "./Reviews.css"
+import {Link} from "gatsby"
 
 let num = 0
 
@@ -49,7 +50,7 @@ const Reviews = () => {
     <>
       <div className="row">
         <div className="col-sm-12 text-center">
-          <h2 className="p-4 m-0">What People Are Saying</h2>
+          <h2 className="p-4 m-0">Customer Reviews</h2>
         </div>
       </div>
       <div className="row">
@@ -98,6 +99,18 @@ const Reviews = () => {
           <a id="next" onClick={handleNewQuote}>
             &#10095;
           </a>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-sm-12 text-center">
+          <Link to="/testimonials">
+            <button
+              className="m-3 button shadow"
+              style={{ backgroundColor: "black" }}
+            >
+              See All Reviews
+            </button>
+          </Link>
         </div>
       </div>
     </>

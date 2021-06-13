@@ -26,7 +26,7 @@ const about = () => {
                 Treatments to homes and businesses in the Delray Beach and
                 surrounding areas for over 15 years. We are licensed and insured and specialize in
                 Plantation Shutters in Wood and Poly, Solar Shades, Horizontal
-                Shades and Verticals.
+                Shades, Verticals, and Motorization.
               </p>
             </div>
             <div className="col-lg-4 text-center about-img">

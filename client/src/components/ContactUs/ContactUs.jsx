@@ -16,10 +16,10 @@ const ContactUs = () => {
             and surrounding areas that specializes in Plantation Shutters in
             Wood and Poly, Solar Shades, Horizontal Shades and Vertical Shades,
             then please call{" "}
-            <a href="tel:5617054900" style={{ color: "black", textDecoration: "underline" }}>
+            <a href="tel:5617054900">
               (561) 705-4900
             </a>{" "}
-            or <Link to="/contact" style={{ color: "black", textDecoration: "underline" }}>complete our online consultation form</Link>.
+            or <Link to="/contact">complete our online consultation form</Link>.
           </p>
         </div>
       </div>

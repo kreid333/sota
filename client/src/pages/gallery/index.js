@@ -19,7 +19,7 @@ const gallery = () => {
         </div>
         <div className="services">
           <div className="row">
-            <div className="col-sm-12 service-img viewAll mb-3">
+            <div className="col-sm-12 service-img viewAll">
               <Link to="/gallery/all">
                 <h3>View All</h3>
                 <span>
@@ -29,7 +29,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 service-img plantationShutters mb-3">
+            <div className="col-sm-12 service-img plantationShutters">
               <Link to="/gallery/plantationshutters">
                 <h3>Plantation Shutters</h3>
                 <span>
@@ -39,11 +39,21 @@ const gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 service-img solarShades mb-3">
+            <div className="col-sm-12 service-img solarShades">
               <Link to="/gallery/solarshades">
                 <h3>Solar Shades</h3>
                 <span>
                   View Photos <FontAwesomeIcon icon={faChevronCircleRight} />
+                </span>
+              </Link>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12 service-img motorization">
+              <Link to="/gallery/motorization">
+                <h3>Motorization</h3>
+                <span>
+                  View Video <FontAwesomeIcon icon={faChevronCircleRight} />
                 </span>
               </Link>
             </div>

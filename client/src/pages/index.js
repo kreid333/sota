@@ -80,12 +80,11 @@ export default function Home() {
             </h1>
             <h3 className="m-3">Located in Delray Beach, Florida</h3>
             <p>
-              When local home and business owners need window treaments, they
-              contact SOTA Window Coverings to get the job done. That's because
-              for over 15 years, we have been providing quality service to both
-              residential and commercial clients in the Delray Beach area. Here
-              at SOTA Windown Coverings, we go the extra mile to ensure that all
-              of our clients receive the attention they need.
+              A small family owned business providing professional Window
+              Treatments to homes and businesses in the Delray Beach and
+              surrounding areas for over 15 years. We are licensed and insured
+              and specialize in Plantation Shutters in Wood and Poly, Solar
+              Shades, Horizontal Shades, Verticals, and Motorization.
             </p>
             <Link to="/gallery">
               <button
@@ -121,7 +120,7 @@ export default function Home() {
             </h2>
             <div className="services">
               <div className="row">
-                <div className="col-sm-6 service-img plantationShutters">
+                <div className="col-sm-12 service-img plantationShutters">
                   <Link to="/gallery/plantationshutters">
                     <h3>Plantation Shutters</h3>
                     <span>
@@ -129,7 +128,9 @@ export default function Home() {
                     </span>
                   </Link>
                 </div>
-                <div className="col-sm-6 service-img solarShades">
+              </div>
+              <div className="row">
+                <div className="col-sm-12 service-img solarShades">
                   <Link to="/gallery/solarshades">
                     <h3>Solar Shades</h3>
                     <span>
@@ -139,17 +140,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-6 service-img horizontalShades">
-                  <Link to="/gallery/horizontalshades">
-                    <h3>Horizontal Shades</h3>
-                    <span>
-                      Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
-                    </span>
-                  </Link>
-                </div>
-                <div className="col-sm-6 service-img verticalShades">
-                  <Link to="/gallery/verticalshades">
-                    <h3>Vertical Shades</h3>
+                <div className="col-sm-12 service-img motorization">
+                  <Link to="/gallery/motorization">
+                    <h3>Motorization</h3>
                     <span>
                       Learn More <FontAwesomeIcon icon={faChevronCircleRight} />
                     </span>

@@ -21,15 +21,17 @@ router.post("/api/sendMail", (req, res) => {
       </div>
     `;
 
+  const maillist = [req.body.email, "stephenw@sotadecor.com"]
+
   const sendMail = async () => {
     try {
       // create reusable transporter object using the default SMTP transport
       let transporter = nodemailer.createTransport({
-        host: "smtp.office365.com",
+        host: "mail.sotadecor.com",
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: "money1890@hotmail.com", // generated ethereal user
+          user: "stephenw@sotadecor.com", // generated ethereal user
           pass: process.env.PASSWORD, // generated ethereal password
         },
         tls: {
@@ -39,8 +41,8 @@ router.post("/api/sendMail", (req, res) => {
 
       // send mail with defined transport object
       let info = await transporter.sendMail({
-        from: '"Kai Reid" <money1890@hotmail.com>', // sender address
-        to: req.body.email, // list of receivers
+        from: '"SOTA Window Coverings" <stephenw@sotadecor.com>', // sender address
+        to: maillist, // list of receivers
         subject:
           "Thank you for contacting SOTA Window Coverings", // Subject line
         // text: "Hello world?", // plain text body

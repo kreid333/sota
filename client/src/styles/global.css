@@ -14,19 +14,11 @@ body {
   border: none;
   color: white;
   border-radius: 30px;
+  transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
-  animation-name: btn;
-  animation-duration: 0.15s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease;
-}
-
-@keyframes btn {
-  100% {
-    transform: scale(0.85);
-  }
+  transform: scale(0.85);
 }
 
 .service-img {
@@ -51,6 +43,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.35);
+  transition: all 0.2s ease-in-out;
 }
 
 .service-img a:hover {
@@ -73,6 +66,10 @@ body {
 
 .solarShades {
   background-image: url("../images/gallery/IMG_5127.jpg");
+}
+
+.motorization {
+  background-image: url("../images/gallery/solarshades/IMG_5186.jpg");
 }
 
 .verticalShades {

@@ -38,7 +38,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
           </div>
-          <small>&copy;2021, Kai Reid</small>
+          <small>&copy;2021, SOTA Window Coverings</small>
         </div>
       </div>
     </footer>
