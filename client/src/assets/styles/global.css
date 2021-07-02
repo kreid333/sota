@@ -8,20 +8,34 @@ body {
   min-height: 100vh;
 }
 
+.section-header {
+  font-size: 2rem;
+  margin: 20px;
+  text-align: center;
+}
+
 .button {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.375);
+  margin: 10px;
   border: none;
   color: white;
   border-radius: 30px;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.button-consultations {
+  background-color: rgba(0, 0, 0, 0.375);
+}
+
+.button-black {
+  background-color: black;
 }
 
 .button:hover {
   transform: scale(0.85);
 }
 
-.service-img {
+.services-img {
   padding: 0 !important;
   color: white;
   width: 100%;
@@ -31,7 +45,7 @@ body {
   background-position: center;
 }
 
-.service-img a {
+.services-img a {
   color: white;
   display: flex;
   flex-direction: column;
@@ -46,25 +60,21 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.service-img a:hover {
+.services-img a:hover {
   color: white;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.service-img a:hover span {
+.services-img a:hover span {
   text-decoration: underline;
 }
 
-.plantationShutters {
+.plantation-shutters {
   background-image: url("../images/gallery/IMG_5128.jpg");
 }
 
-.horizontalShades {
-  background-image: url("../images/gallery/IMG_5129.jpg");
-}
-
-.solarShades {
+.solar-shades {
   background-image: url("../images/gallery/IMG_5127.jpg");
 }
 
@@ -72,15 +82,11 @@ body {
   background-image: url("../images/gallery/solarshades/IMG_5186.jpg");
 }
 
-.verticalShades {
-  background-image: url("../images/gallery/verticalshades/IMG_5145.jpg");
-}
-
-.viewAll {
+.view-all {
   background-image: url("../images/gallery/IMG_5139.jpg");
 }
 
-.globalBtn {
+.global-btn {
   background-color: white;
   color: black;
   padding: 10px;
@@ -88,15 +94,15 @@ body {
   transition: background-color 0.25s ease;
 }
 
-.globalBtn:hover {
+.global-btn:hover {
   background-color: black;
   color: white;
 }
 
-.imgDiv {
+.img-div {
   height: 400px;
 }
 
-.galleryImg {
+.gallery-img {
   object-fit: cover;
 }

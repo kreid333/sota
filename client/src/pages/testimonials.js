@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Layout from "../components/Layout"
-import SOTA from "../images/logo/SOTA.png"
+import SOTA from "../assets/images/logo/SOTA.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
 import { Modal } from "react-bootstrap"
@@ -164,7 +164,7 @@ const Testimonials = () => {
         <br />
         <div className="row mb-5">
           <div className="col-sm-12 text-center">
-            <button type="submit" className="button reviewBtn" onClick={handleShow}>Submit a review</button>
+            <button type="submit" className="button review-btn" onClick={handleShow}>Submit a review</button>
           </div>
         </div>
         <div>

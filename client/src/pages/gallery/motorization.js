@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../../components/Layout"
 import { Link } from "gatsby"
-import video from "../../images/IMG_7710.mp4"
+import video from "../../assets/videos/IMG_7710.mp4"
 
 const motorization = () => {
   return (
@@ -18,7 +18,7 @@ const motorization = () => {
           <source src={video} type="video/mp4"></source>
         </video>
         <Link to="/gallery">
-          <button type="submit" className="globalBtn m-5">
+          <button type="submit" className="global-btn m-5">
             Go back
           </button>
         </Link>

@@ -1,10 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
-import HorizontalShades from "../../components/HorizontalShades/HorizontalShades"
 import Layout from "../../components/Layout"
 import PlantationShutters from "../../components/PlantationShutters/PlantationShutters"
 import SolarShades from "../../components/SolarShades/SolarShades"
-import VerticalShades from "../../components/VerticalShades/VerticalShades"
 
 const all = () => {
   return (
@@ -17,11 +15,10 @@ const all = () => {
             </h1>
           </div>
         </div>
-        <HorizontalShades />
         <PlantationShutters />
         <SolarShades />
         <Link to="/gallery">
-          <button type="submit" className="globalBtn m-5">
+          <button type="submit" className="global-btn m-5">
             Go back
           </button>
         </Link>

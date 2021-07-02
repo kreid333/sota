@@ -1,23 +1,5 @@
-.footer-links {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0;
-}
-
-.foot-link {
-  list-style: none;
-}
-
-.foot-link a {
-  color: white;
-}
-
-.foot-link a:hover {
-  color: white;
-}
-
 .footer {
-  background-image: url("../../images/footer/wood-panel-background_LOWRES.jpg");
+  background-image: url("../../assets/images/footer/wood-panel-background_LOWRES.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,16 +13,26 @@
   padding: 40px;
 }
 
+.footer-title {
+  font-size: 25px;
+}
+
+.footer-links {
+  margin: 10px 0px;
+}
+
+.footer-icon {
+  color: white;
+  margin: 0px 10px;
+  transition: color 0.25s ease-in-out;
+}
+
+.footer-icon:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 .contact {
   display: flex;
   flex-direction: column;
-}
-
-.footerIcon {
-  color: white;
-}
-
-.footerIcon:hover {
-  text-decoration: none;
-  color: black;
 }

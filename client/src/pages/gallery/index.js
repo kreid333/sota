@@ -19,7 +19,7 @@ const gallery = () => {
         </div>
         <div className="services">
           <div className="row">
-            <div className="col-sm-12 service-img viewAll">
+            <div className="col-sm-12 services-img view-all">
               <Link to="/gallery/all">
                 <h3>View All</h3>
                 <span>
@@ -29,7 +29,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 service-img plantationShutters">
+            <div className="col-sm-12 services-img plantation-shutters">
               <Link to="/gallery/plantationshutters">
                 <h3>Plantation Shutters</h3>
                 <span>
@@ -39,7 +39,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 service-img solarShades">
+            <div className="col-sm-12 services-img solar-shades">
               <Link to="/gallery/solarshades">
                 <h3>Solar Shades</h3>
                 <span>
@@ -49,7 +49,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 service-img motorization">
+            <div className="col-sm-12 services-img motorization">
               <Link to="/gallery/motorization">
                 <h3>Motorization</h3>
                 <span>

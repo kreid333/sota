@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Reviews.css"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 
 let num = 0
 
@@ -48,11 +48,7 @@ const Reviews = () => {
 
   return (
     <>
-      <div className="row">
-        <div className="col-sm-12 text-center">
-          <h2 className="p-4 m-0">Customer Reviews</h2>
-        </div>
-      </div>
+      <div className="section-header">Customer Reviews</div>
       <div className="row">
         <div className="col-sm-12 p-0 reviews">
           <div

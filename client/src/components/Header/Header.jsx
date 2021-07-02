@@ -23,22 +23,19 @@ const Header = ({ pageTitle }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navbar-nav mx-auto">
-            <Link to="/" className="nav-link mr-5">
+            <Link to="/" className="nav-link">
               Home
             </Link>
-            <Link to="/about" className="nav-link mr-5">
+            <Link to="/about" className="nav-link">
               About
             </Link>
-            {/* <Link to="/faq" className="nav-link mr-5">
-              FAQ
-            </Link> */}
-            <Link to="/testimonials" className="nav-link mr-5">
+            <Link to="/testimonials" className="nav-link">
               Testimonials
             </Link>
-            <Link to="/gallery" className="nav-link mr-5">
+            <Link to="/gallery" className="nav-link">
               Gallery
             </Link>
-            <Link to="/contact" className="nav-link mr-5">
+            <Link to="/contact" className="nav-link">
               Contact
             </Link>
           </Nav>

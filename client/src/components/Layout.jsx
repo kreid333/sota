@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./Header/Header"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "@fontsource/montserrat"
-import "../styles/global.css"
+import "../assets/styles/global.css"
 import Footer from "./Footer/Footer"
 
 const Layout = ({ children, title }) => {

@@ -3,6 +3,7 @@ const router = require("express").Router();
 const db = require("../models");
 require("dotenv").config();
 
+// SENDING EMAIL THROUGH CONTACT FORM
 router.post("/api/sendMail", (req, res) => {
   console.log(req.body);
   const output = `
@@ -59,6 +60,7 @@ router.post("/api/sendMail", (req, res) => {
   sendMail();
 });
 
+// CREATING A REVIEW IN DATABASE
 router.post("/api/sendReview", (req, res) => {
   console.log(req.body);
   db.Review.create(req.body)
@@ -72,6 +74,7 @@ router.post("/api/sendReview", (req, res) => {
     });
 });
 
+// GETTING ALL REVIEWS FROM DATABASE
 router.get("/api/getReviews", (req, res) => {
   db.Review.find({})
     .then((data) => {

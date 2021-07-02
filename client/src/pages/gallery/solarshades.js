@@ -16,7 +16,7 @@ const solarshades = () => {
         </div>
         <SolarShades />
         <Link to="/gallery">
-          <button type="submit" className="globalBtn m-5">
+          <button type="submit" className="global-btn m-5">
             Go back
           </button>
         </Link>
